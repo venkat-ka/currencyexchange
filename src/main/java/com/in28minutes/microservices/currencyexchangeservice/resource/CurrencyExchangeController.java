@@ -29,7 +29,7 @@ public class CurrencyExchangeController {
 	}
 	
 	@GetMapping("/home")
-	public String imHealthy() {
+	public String home() {
 		return "Welcome to Devops Docker";
 	}
 
