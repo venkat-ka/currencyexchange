@@ -27,6 +27,11 @@ public class CurrencyExchangeController {
 	public String imHealthy() {
 		return "{healthy:true}";
 	}
+	
+	@GetMapping("/home")
+	public String imHealthy() {
+		return "Welcome to Devops Docker";
+	}
 
 	//http://localhost:8000/currency-exchange/from/USD/to/INR
 	@GetMapping("/currency-exchange/from/{from}/to/{to}")
