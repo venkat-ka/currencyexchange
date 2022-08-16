@@ -30,7 +30,7 @@ public class CurrencyExchangeController {
 	
 	@GetMapping("/home")
 	public String home() {
-		return "Tenth Updated the Welcome to Devops Docker";
+		return "Eleventh Updated the Welcome to Devops Docker";
 	}
 
 	//http://localhost:8000/currency-exchange/from/USD/to/INR
